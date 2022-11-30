@@ -1,0 +1,50 @@
+[
+    {
+        "label": "Mineral Water",
+        "type": "Drink",
+        "price": 1,
+        "quantity": 10
+    },
+    {
+        "label": "Wonda Coffee",
+        "type": "Drink",
+        "price": 2,
+        "quantity": 10
+    },
+    {
+        "label": "Chocolate Milk",
+        "type": "Drink",
+        "price": 2,
+        "quantity": 10
+    },
+    {
+        "label": "Coke",
+        "type": "Drink",
+        "price": 2,
+        "quantity": 10
+    },
+    {
+        "label": "Red Bull",
+        "type": "Drink",
+        "price": 3,
+        "quantity": 10
+    },
+    {
+        "label": "KitKat",
+        "type": "Snack",
+        "price": 2,
+        "quantity": 10
+    },
+    {
+        "label": "Snickers",
+        "type": "Snack",
+        "price": 2,
+        "quantity": 10
+    },
+    {
+        "label": "Twix",
+        "type": "Snack",
+        "price": 2,
+        "quantity": 10
+    }
+]

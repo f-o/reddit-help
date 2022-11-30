@@ -9,6 +9,8 @@ I've decided to put it all in one place so I can easily find it later.
 - [HTML](#html)
 
 ## Python
+- ### [Inaccurate Reading of LCD With Tesseract OCR](https://www.reddit.com/r/learnpython/comments/z8j7mv/inaccurate_reading_of_lcd_with_tesseract_ocr/)
+    - [LCD-tesseract](/LCD-tesseract/)
 - ### [Need assist in creating python program that simulates a simple vending machine](https://www.reddit.com/r/CodingHelp/comments/z82c7s/need_assist_in_creating_python_program_that/)
     - [vending-machine](/vending-machine/)
 - ### [Reading numbers from text file](https://www.reddit.com/r/CodingHelp/comments/refo9e/reading_numbers_from_text_file/)

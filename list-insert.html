@@ -1,0 +1,97 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Coding Help</title>
+    </head>
+    <body>
+        <ul>
+            <li>Name:</li>
+            <ul>
+                <li>Fox</li>
+            </ul>
+            <li>Age</li>
+            <ul>
+                <li>30</li>
+            </ul>
+            <li>Country</li>
+            <ul>
+                <li>Denmark</li>
+            </ul>
+            <li>Hobby</li>
+            <ul>
+                <li>Programming</li>
+            </ul>
+        </ul>
+
+        <hr>
+
+        <ul id="list">
+            <li>Name:</li>
+            <ul>
+                <li id="name">Fox</li>
+            </ul>
+            <li>Age</li>
+            <ul>
+                <li id="age">30</li>
+            </ul>
+            <li>Country</li>
+            <ul>
+                <li id="country">Denmark</li>
+            </ul>
+            <li>Hobby</li>
+            <ul>
+                <li id="hobby">Programming</li>
+            </ul>
+        </ul>
+
+        <hr>
+
+        <ul id="replace">
+            <li>Name: </li>
+            <li>Country: </li>
+        </ul>
+
+        <script>
+            /*
+                First example using no IDs.
+                This is a bad example because it is not very flexible.
+                Furthermore it is very confusing to read, and it is not very maintainable.
+            */
+            let list = document.querySelector('ul');
+            // Store the new list item in a variable
+            let name = 'John';
+            // Change "Fox" to "John"
+            list.children[1].children[0].innerHTML = name;
+            // Change the country to "USA"
+            list.children[5].children[0].innerHTML = 'USA';
+        </script>
+
+        <script>
+            /*
+                Second example using IDs.
+                This is a better example because it is more flexible, and gives us a better overview.
+            */
+            let name2 = 'John';
+            // Change "Fox" to "John"
+            document.querySelector('#name').innerHTML = name2;
+            // Change the country to "USA"
+            document.querySelector('#country').innerHTML = 'USA';
+        </script>
+
+        <script>
+            /*
+                Third example replacing the label to include the value.
+                I wasn't sure if this was what you wanted, but I thought I would include it anyway.
+            */
+            let name3 = 'John';
+            let country3 = 'USA';
+            // Change "Fox" to "John"
+            document.querySelector('#replace').children[0].innerHTML = 'Name: ' + name3;
+            // Change the country to "USA"
+            document.querySelector('#replace').children[1].innerHTML = 'Country: ' + country3;        
+        </script>
+    </body>
+    </html>

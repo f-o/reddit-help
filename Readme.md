@@ -26,3 +26,7 @@ I've decided to put it all in one place so I can easily find it later.
 ## Javascript
 - ### [Please help me get back on the right track.](https://www.reddit.com/r/CodingHelp/comments/qza6wu/please_help_me_get_back_on_the_right_track/)
     - [school.js](/school.js)
+
+## HTML
+- ### [Help I need help using JavaScript to insert text next to my labels(li) in html](https://www.reddit.com/r/CodingHelp/comments/z85o3l/help_i_need_help_using_javascript_to_insert_text/)
+    - [list-insert.html](/list-insert.html)
